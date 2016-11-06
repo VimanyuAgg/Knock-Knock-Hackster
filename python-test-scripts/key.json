@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "foodtrucklocator-1300",
+  "private_key_id": "43028605d5ba55022b3f0bd9cb5e306254f45098",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDjBCUlpWj4FkA\nDKD2lIcYZ1NdchQdYRIOTlg32s2Iua4Tw/lh8DFC9T16neGedPFyBmuUmj+eEu1w\nrEqAPhk9Llum/OO0h/vOdPOIlLVq2ty4m2Dvt9f1q0FeM1mLsdZGzEZSjXKoZZOT\nVK9IEvxJ335taopZ0BfNCvCi/Qk659w3DsYlUd0d8kQycy3+hjmdjPvzfx+zv1qA\ng4QVLNbjUvI1sUcgwZQ4P0rp6vw76MBiP8M+JCrwn5WHttiIdMKxeD32+q9z+bOe\nRigoFbbDRJODu7UExzOBWtpI5u20YL03rKZqTs7NhZxMBrXQe66p5RMABs5uprZZ\njO0/nd6BAgMBAAECggEAJSdjrxe9btmdj2jW3ILz+CsJp+OY9swOxjEUiehEzQma\njZ7ar0UX1wUJnVaKG7VUernFjwKPu9UU0CesMBmcagd42o2KJi8AJQYLj5PRtG/J\nKDo9fM6NddwIG4HeLbCoaeM+KUk+08gY9hFNDICu9spEFz36832aSBcgCZfSPSKj\nElqdHonIMyNt+9EA/leaxweKAtVKFRo2jwuDSzC3Y9RaXKzQ/eGk8HDhYq1rRxyp\nv3CkVQeCo1io0KngfUKEM2k2RNIqFrnkGOWHSl05MP3N6sWA698C7ZZPlOiJlF0w\nWyVW3X3W98N3OWlys6NQkffBNrR9krA7ZtkN20WmkQKBgQD72ZnwQjyRGgpTXIfG\n57HVbkoRWFmG4nrQC02st8CkP9H7kyQehLpqBO+EzxFrJYEBxdCEo0jLGC+ichyG\n7BrWbmNnzu7T3oNu7UnD2g2qGMPvK19moy0h0P2VqQVtZ2WsUVMvo537Q2kQWYRF\nEAUIctxGDdw104BuayQGbOslHwKBgQDGxPTjL4C5Cn4UipzExOkXfJj+86WehlhI\nzs4C+f/XGVpZiyGPWUfTkDNdbYV7SLwZzvXehOc5Isr7MtLKg92NZ5CmK9H8dbgp\n0z6rhfDzSrftRsYmYutCsGvMvaXUPrJv4BCPzML9sYjfO+6pD5111X79fyptCbg0\n3xrDX2noXwKBgHw1i6hk4n4lu6X1YrmEl75NkJYRXsYZeLyWdo6SaZ4YI7XRkeTD\nTTTwjjiP72VKr99x8i8YYNRZb1TMtqkMVQgglUIjWsJ/YY8Z1GGVb1vOrwOL/pce\nLyoYapifLaAReKGN0lsSdN3xFyYLICL3jaPnEiAywcKCNzs9+Bx7J1W9AoGBAJk5\nSu22uKvsArUjBSZKBMUuL2KZv5osRfIaOYTh4u6VhKhyMDSoxk24Y2AqBTO8JgRf\nHfmiyfupbn+l9ghXDnrq0v7F2OGcfZMAXNcsMUna1135qNX+ewy1ouP5bdPnYPYM\n67duSQH30WMEeD2q497p7TLMzI+xZmabda4V5zZRAoGANDQw/0QMb7FQl0/g/XlS\nDfCMG8mSULWhRiTsIUIL2F+bg/IORWit3ciKXtHQN+oflEBrawFJOAY6CBJIYZaI\nxLs97QlPEFRGUcRbYAzcREkzq6u+OUxqJevCqkzriCyx39IgsevqmB1h0KMXVycF\nIGv1zgal52Hp+BokWkoYiZU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "deebee07@foodtrucklocator-1300.iam.gserviceaccount.com",
+  "client_id": "110335166877314903034",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deebee07%40foodtrucklocator-1300.iam.gserviceaccount.com"
+}

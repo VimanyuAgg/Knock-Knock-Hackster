@@ -15,7 +15,16 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from secureApp import views
+from django.conf.urls import include
+
+urlpatterns = [
+    
+]
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', views.index, name='index'),
+    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    url(r'^api/getpersoninfo/$',views.postImage ,name='getLiveImage'),
 ]

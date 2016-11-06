@@ -156,8 +156,8 @@ def index(request):
 
 
 def emailme():
-    fromaddr ="alexadoorhack@gmail.com"
-    toaddr = "deebee2307@gmail.com"
+    fromaddr =""
+    toaddr = ""
     msg = MIMEMultipart()
     msg['From'] = fromaddr
     msg['To'] = toaddr
@@ -173,7 +173,7 @@ def emailme():
     msg.attach(part)
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login(fromaddr, "hacksterio")
+    server.login(fromaddr, "")
     text = msg.as_string()
     server.sendmail(fromaddr, toaddr, text)
     server.quit()
@@ -242,7 +242,7 @@ def postImage(request):
 
     if maxconfidence < 0.71 and (maxconfidence-secondmax)<0.05:
         try:
-            t = Thread(target= emailme)
+            t = Thread(target=emailme)
             t.start()
         except Exception, e:
             print "Unable to start new thread"       

@@ -28,6 +28,8 @@ People who really like to own cool stuff
 
 ## Flow diagram of the project:
 
+![alt tag](https://github.com/VimanyuAgg/Knock-Knock-Hackster/blob/master/FlowDiagram_KnockKnock.png)
+
 
 
 

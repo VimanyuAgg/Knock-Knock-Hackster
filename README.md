@@ -38,3 +38,4 @@ A server is running on Intel Edison which is interfaced with a webcam to provide
 We have used the Spot Crime API to process the total number of crimes in the top three most dangerous streets with the highest crime rate in the last 24 hours.
 
 ## Email Snapshots
+Real time emails with picutres and description of the visitor shared with the resident.

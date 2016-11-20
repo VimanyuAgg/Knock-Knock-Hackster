@@ -143,7 +143,7 @@ def jsonarrayval(jsonobject):
     jsoncalcuated = []
     for i in range(0,len(jsonobject)-1):
         x = lineCalc(jsonobject[i]['position']['x'],jsonobject[i]['position']['y'],jsonobject[i]['position']['z'],jsonobject[i+1]['position']['x'],jsonobject[i+1]['position']['y'],jsonobject[i+1]['position']['z'])
-        jsoncalcuated.append(x)
+        jsoncalcuated.append(x)          
     return jsoncalcuated
 
 
@@ -156,8 +156,8 @@ def index(request):
 
 
 def emailme():
-    fromaddr =""
-    toaddr = ""
+    fromaddr ="alexadoorhack@gmail.com"
+    toaddr = "deebee2307@gmail.com"
     msg = MIMEMultipart()
     msg['From'] = fromaddr
     msg['To'] = toaddr
@@ -173,7 +173,7 @@ def emailme():
     msg.attach(part)
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login(fromaddr, "")
+    server.login(fromaddr, "hacksterio")
     text = msg.as_string()
     server.sendmail(fromaddr, toaddr, text)
     server.quit()
@@ -240,7 +240,7 @@ def postImage(request):
             secondmax = maxconfidence
             maxconfidence  = np.mean(matchcounterlist[key])
 
-    if maxconfidence < 0.71 and (maxconfidence-secondmax)<0.05:
+    if maxconfidence > 0.71 and (maxconfidence-secondmax)<0.05:
         try:
             t = Thread(target=emailme)
             t.start()

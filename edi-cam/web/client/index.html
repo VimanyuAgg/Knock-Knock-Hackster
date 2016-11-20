@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="initial-scale=1"/>
+  <title>edi-cam</title>
+  <style type="text/css">
+    .container {
+      margin-top: 5%;
+      text-align: center;
+    }
+
+    #canvas-video {
+      width: 1024;
+      height: 600;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <!-- Reference: https://github.com/phoboslab/jsmpeg/blob/master/stream-example.html -->
+
+  <div class="container">
+    <!--
+      The canvas size specified here is the "initial" internal resolution. jsmpeg will
+      change this internal resolution to whatever the source provides. The size the
+      canvas is displayed on the website is dictated by the CSS style.
+    -->
+    <canvas id="canvas-video" width="640" height="480"></canvas>
+  </div>
+
+  <script src="/jsmpg.js"></script>
+  <script type="text/javascript">
+    // Show loading notice
+    var canvas = document.getElementById('canvas-video');
+    var ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#333';
+    ctx.fillText('Loading...', canvas.width/2-30, canvas.height/3);
+
+    // Start the player
+    var client = new WebSocket('ws://' + document.domain + ':8084');
+    var player = new jsmpeg(client, { canvas:canvas });
+  </script>
+</body>
+</html>

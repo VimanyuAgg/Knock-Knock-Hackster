@@ -11,7 +11,7 @@ logging.getLogger("flask_ask").setLevel(logging.DEBUG)
    
 @ask.launch
 def new_program():
-    location = "Give me the pincode where you want me to spot crime, and I'll tell you the top dangerous streets in that area and related crime information'"
+    location = "Give me the zipcode where you want me to spot crime, and I'll tell you the top dangerous streets in that area and related crime information'"
 	#IP2LocObj = IP2Location.IP2Location()
 	#IP2LocObj.open("data/IP-COUNTRY-REGION-CITY-LATITUDE-LONGITUDE-ZIPCODE-TIMEZONE-ISP-DOMAIN-NETSPEED-AREACODE-WEATHER-MOBILE-ELEVATION-USAGETYPE-SAMPLE.BIN")
 	#rec = IP2LocObj.get_all("19.5.10.1")

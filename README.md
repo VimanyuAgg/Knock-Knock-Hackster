@@ -1,9 +1,9 @@
 # Abstract
 
 ## Executive Summary:
-•	Alexa interacts with Intel Edison to check if someone is standing on the door, clicks the image and emails it to the sender in addition to providing the identity of the visitor via self-implemented facial recognition algorithm. 
-•	Alexa emails the picture to the resident so as to confirm its result
-•	Alexa also reports the crimes statistics at the granularity of the street level so as to make the user aware of the reported crimes. 
+ - Alexa interacts with Intel Edison to check if someone is standing on the door, clicks the image and emails it to the sender in addition to providing the identity of the visitor via self-implemented facial recognition algorithm. 
+ - Alexa emails the picture to the resident so as to confirm its result
+ - Alexa also reports the crimes statistics at the granularity of the street level so as to make the user aware of the reported crimes. 
 
 ## Problem Scenario:
 
